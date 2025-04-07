@@ -209,10 +209,4 @@ Make sure to:
 - Your controller functions will now call database methods instead of array operations.
 - Keep your view rendering logic the same.
 
-#### 4. No Changes to Views Required
-
-Since your EJS views are already based on the `todos` data structure, no changes are needed. Just ensure that `_id` is used properly in URLs and forms instead of the old `id` field.
-
----
-
 Good luck and have fun coding! 🚀
