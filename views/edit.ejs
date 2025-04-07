@@ -7,7 +7,7 @@
   </head>
   <body
     ><h1>Form Update</h1>
-    <form action="/todos/<%= todo.id %>?_method=put" method="post">
+    <form action="/todos/<%= todo._id %>?_method=put" method="post">
       <label>title</label>
       <input type="text" name="title" value="<%= todo.title %>" />
       <label>description</label>
